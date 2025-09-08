@@ -1,10 +1,10 @@
 // Metal prices per pound (lb)
 const metalPrices = {
-    copper: 3.50,
-    aluminum: 0.75,
-    steel: 0.30,
-    brass: 2.00,
-    iron: 0.15
+    "clean copper": 3.40,
+    "insulated wire": 2.25,
+    "Romex": 1.70,
+    "LV wire": 1.00,
+    "MC": 1.00
 };
 
 // DOM Elements

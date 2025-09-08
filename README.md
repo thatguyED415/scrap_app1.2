@@ -22,11 +22,11 @@ A web-based application for iOS and Android that calculates the total scrap weig
 
 The application currently supports the following metal types with their respective prices per pound:
 
-- Copper: $3.50/lb
-- Aluminum: $0.75/lb
-- Steel: $0.30/lb
-- Brass: $2.00/lb
-- Iron: $0.15/lb
+- Clean Copper: $3.40/lb
+- Insulated Wire: $2.25/lb
+- Romex: $1.70/lb
+- LV Wire: $1.00/lb
+- MC: $1.00/lb
 
 ## Installation and Deployment
 
@@ -89,9 +89,9 @@ To verify the application works correctly:
 3. Try the following test cases:
    - Enter 10 lbs of copper (should calculate to $35.00)
    - Enter 20 lbs of aluminum (should calculate to $15.00)
-   - Enter 50 lbs of steel (should calculate to $15.00)
-   - Enter 5 lbs of brass (should calculate to $10.00)
-   - Enter 100 lbs of iron (should calculate to $15.00)
+   - Enter 50 lbs of Romex (should calculate to $15.00)
+   - Enter 5 lbs of LV Wire (should calculate to $5.00)
+   - Enter 100 lbs of MC (should calculate to $100.00)
    - Try entering invalid values (negative numbers, text) to test error handling
 
 ## License
