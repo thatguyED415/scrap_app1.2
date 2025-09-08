@@ -118,7 +118,7 @@ document.head.insertAdjacentHTML('beforeend', `
 // Initialize the app
 function init() {
     // Set default values
-    metalTypeSelect.value = 'copper';
+    metalTypeSelect.value = 'clean copper';
     weightInput.value = '';
     
     // Focus on weight input
